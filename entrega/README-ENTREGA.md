@@ -103,6 +103,7 @@ Os 5 testes fornecidos continuam inalterados. Adicionei 3 testes de regressão, 
 - `tests/test_top_hotels_tiebreak.py`: valida o desempate por `hotel_id` ascendente quando dois hotéis têm o mesmo valor (o teste fornecido não cobre empate).
 - `tests/test_large_file.py`: valida que um arquivo com 250 reservas é lido por inteiro; cobre o defeito 5, que nenhum teste fornecido detectava.
 - `tests/test_nights_year_boundary.py`: valida o cálculo de noites na virada de ano com mais de um quarto (30/12 → 02/01, 2 quartos = 6 noites de quarto).
+
 Os testes fornecidos não foram alterados.
 
 ## Uso de IA
